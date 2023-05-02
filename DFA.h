@@ -49,7 +49,6 @@ public:
     void addTransition(const string &fromState, const char &input, const string &toState);
     void setStartState(const string &startState);
     void setAcceptStates(const vector<string> &acceptStates);
-    void addAcceptState(const string &state);
 
     void setTable(const vector<vector<bool>> &table);
 

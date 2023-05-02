@@ -436,10 +436,6 @@ void DFA::setAcceptStates(const vector<string> &acceptStates) {
     DFA::acceptStates = acceptStates;
 }
 
-void DFA::addAcceptState(const std::string &state) {
-    DFA::acceptStates.push_back(state);
-}
-
 const vector<string> &DFA::getStates() const {
     return states;
 }
